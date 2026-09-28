@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@400;500;600&display=swap');
+
+/* Page styling */
+body {
+    background-color: #f4f7f6;
+    color: #263238;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main heading card */
+h1 {
+    background-color: #ffffff;
+    color: #1565c0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 25px;
+    margin: 0 auto 25px;
+    border: 1px solid #d6e0e3;
+    border-radius: 12px;
+    max-width: 900px;
+}
+
+/* Section headings */
+h2 {
+    color: #1565c0;
+    font-family: 'Merriweather', serif;
+    margin-top: 0;
+}
+
+/* Form card */
+form {
+    background-color: #ffffff;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 25px;
+    border: 1px solid #d6e0e3;
+    border-radius: 12px;
+}
+
+/* Form labels */
+label {
+    font-weight: 600;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+/* Form inputs and select */
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Button */
+button {
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0d47a1;
+}
+
+/* Expense table card */
+table {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: 1px solid #d6e0e3;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Table heading */
+th {
+    background-color: #1565c0;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+/* Table cells */
+td {
+    padding: 14px;
+    border: 1px solid #d6e0e3;
+}
+
+/* Alternating rows */
+tr:nth-child(even) {
+    background-color: #eef5fb;
+}
+
+/* Table row hover */
+tr:hover {
+    background-color: #e3f2fd;
+}
